@@ -118,4 +118,3 @@ type Task = {
 5. **Paginação por offset desde o início** — `task.list` já retorna `nextCursor`, o que atende à listagem e ao bônus de infinite scroll sem duplicar endpoint.
 6. **Formatação de data com timezone fixo** (`America/Sao_Paulo`) — evita divergência entre servidor e navegador na hidratação.
 7. **Nomes do domínio em português** (`titulo`, `descricao`, `dataCriacao`) — seguem a especificação do desafio; o restante do código está em inglês.
-
